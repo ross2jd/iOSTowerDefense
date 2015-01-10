@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251FACE11A61DC290049A103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACE01A61DC290049A103 /* main.m */; };
+		251FACE41A61DC290049A103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACE31A61DC290049A103 /* AppDelegate.m */; };
+		251FACE71A61DC290049A103 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACE61A61DC290049A103 /* GameScene.m */; };
+		251FACE91A61DC290049A103 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 251FACE81A61DC290049A103 /* GameScene.sks */; };
+		251FACEC1A61DC290049A103 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACEB1A61DC290049A103 /* GameViewController.m */; };
+		251FACEF1A61DC290049A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251FACED1A61DC290049A103 /* Main.storyboard */; };
+		251FACF11A61DC290049A103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF01A61DC290049A103 /* Images.xcassets */; };
+		251FACF41A61DC290049A103 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF21A61DC290049A103 /* LaunchScreen.xib */; };
+		251FAD001A61DC290049A103 /* TowerDefenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACFF1A61DC290049A103 /* TowerDefenseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		251FACFA1A61DC290049A103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 251FACD31A61DC290049A103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251FACDA1A61DC290049A103;
+			remoteInfo = TowerDefense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251FACDB1A61DC290049A103 /* TowerDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FACDF1A61DC290049A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251FACE01A61DC290049A103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251FACE21A61DC290049A103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251FACE31A61DC290049A103 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251FACE51A61DC290049A103 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		251FACE61A61DC290049A103 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		251FACE81A61DC290049A103 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		251FACEA1A61DC290049A103 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		251FACEB1A61DC290049A103 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		251FACEE1A61DC290049A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		251FACF01A61DC290049A103 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		251FACF31A61DC290049A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		251FACF91A61DC290049A103 /* TowerDefenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerDefenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FACFE1A61DC290049A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251FACFF1A61DC290049A103 /* TowerDefenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerDefenseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		251FACD81A61DC290049A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FACF61A61DC290049A103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251FACD21A61DC290049A103 = {
+			isa = PBXGroup;
+			children = (
+				251FACDD1A61DC290049A103 /* TowerDefense */,
+				251FACFC1A61DC290049A103 /* TowerDefenseTests */,
+				251FACDC1A61DC290049A103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		251FACDC1A61DC290049A103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				251FACDB1A61DC290049A103 /* TowerDefense.app */,
+				251FACF91A61DC290049A103 /* TowerDefenseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		251FACDD1A61DC290049A103 /* TowerDefense */ = {
+			isa = PBXGroup;
+			children = (
+				251FACE21A61DC290049A103 /* AppDelegate.h */,
+				251FACE31A61DC290049A103 /* AppDelegate.m */,
+				251FACE51A61DC290049A103 /* GameScene.h */,
+				251FACE61A61DC290049A103 /* GameScene.m */,
+				251FACE81A61DC290049A103 /* GameScene.sks */,
+				251FACEA1A61DC290049A103 /* GameViewController.h */,
+				251FACEB1A61DC290049A103 /* GameViewController.m */,
+				251FACED1A61DC290049A103 /* Main.storyboard */,
+				251FACF01A61DC290049A103 /* Images.xcassets */,
+				251FACF21A61DC290049A103 /* LaunchScreen.xib */,
+				251FACDE1A61DC290049A103 /* Supporting Files */,
+			);
+			path = TowerDefense;
+			sourceTree = "<group>";
+		};
+		251FACDE1A61DC290049A103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251FACDF1A61DC290049A103 /* Info.plist */,
+				251FACE01A61DC290049A103 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251FACFC1A61DC290049A103 /* TowerDefenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				251FACFF1A61DC290049A103 /* TowerDefenseTests.m */,
+				251FACFD1A61DC290049A103 /* Supporting Files */,
+			);
+			path = TowerDefenseTests;
+			sourceTree = "<group>";
+		};
+		251FACFD1A61DC290049A103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251FACFE1A61DC290049A103 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		251FACDA1A61DC290049A103 /* TowerDefense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251FAD031A61DC290049A103 /* Build configuration list for PBXNativeTarget "TowerDefense" */;
+			buildPhases = (
+				251FACD71A61DC290049A103 /* Sources */,
+				251FACD81A61DC290049A103 /* Frameworks */,
+				251FACD91A61DC290049A103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerDefense;
+			productName = TowerDefense;
+			productReference = 251FACDB1A61DC290049A103 /* TowerDefense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		251FACF81A61DC290049A103 /* TowerDefenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251FAD061A61DC290049A103 /* Build configuration list for PBXNativeTarget "TowerDefenseTests" */;
+			buildPhases = (
+				251FACF51A61DC290049A103 /* Sources */,
+				251FACF61A61DC290049A103 /* Frameworks */,
+				251FACF71A61DC290049A103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251FACFB1A61DC290049A103 /* PBXTargetDependency */,
+			);
+			name = TowerDefenseTests;
+			productName = TowerDefenseTests;
+			productReference = 251FACF91A61DC290049A103 /* TowerDefenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		251FACD31A61DC290049A103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jordan Ross";
+				TargetAttributes = {
+					251FACDA1A61DC290049A103 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					251FACF81A61DC290049A103 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 251FACDA1A61DC290049A103;
+					};
+				};
+			};
+			buildConfigurationList = 251FACD61A61DC290049A103 /* Build configuration list for PBXProject "TowerDefense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 251FACD21A61DC290049A103;
+			productRefGroup = 251FACDC1A61DC290049A103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				251FACDA1A61DC290049A103 /* TowerDefense */,
+				251FACF81A61DC290049A103 /* TowerDefenseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		251FACD91A61DC290049A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FACF41A61DC290049A103 /* LaunchScreen.xib in Resources */,
+				251FACF11A61DC290049A103 /* Images.xcassets in Resources */,
+				251FACE91A61DC290049A103 /* GameScene.sks in Resources */,
+				251FACEF1A61DC290049A103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FACF71A61DC290049A103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		251FACD71A61DC290049A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FACEC1A61DC290049A103 /* GameViewController.m in Sources */,
+				251FACE41A61DC290049A103 /* AppDelegate.m in Sources */,
+				251FACE71A61DC290049A103 /* GameScene.m in Sources */,
+				251FACE11A61DC290049A103 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251FACF51A61DC290049A103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251FAD001A61DC290049A103 /* TowerDefenseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251FACFB1A61DC290049A103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 251FACDA1A61DC290049A103 /* TowerDefense */;
+			targetProxy = 251FACFA1A61DC290049A103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		251FACED1A61DC290049A103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251FACEE1A61DC290049A103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		251FACF21A61DC290049A103 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				251FACF31A61DC290049A103 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		251FAD011A61DC290049A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		251FAD021A61DC290049A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		251FAD041A61DC290049A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowerDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		251FAD051A61DC290049A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowerDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		251FAD071A61DC290049A103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TowerDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerDefense.app/TowerDefense";
+			};
+			name = Debug;
+		};
+		251FAD081A61DC290049A103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TowerDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowerDefense.app/TowerDefense";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		251FACD61A61DC290049A103 /* Build configuration list for PBXProject "TowerDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FAD011A61DC290049A103 /* Debug */,
+				251FAD021A61DC290049A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		251FAD031A61DC290049A103 /* Build configuration list for PBXNativeTarget "TowerDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FAD041A61DC290049A103 /* Debug */,
+				251FAD051A61DC290049A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		251FAD061A61DC290049A103 /* Build configuration list for PBXNativeTarget "TowerDefenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FAD071A61DC290049A103 /* Debug */,
+				251FAD081A61DC290049A103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 251FACD31A61DC290049A103 /* Project object */;
+}
