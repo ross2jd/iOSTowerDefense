@@ -7,19 +7,33 @@
 //
 
 #import "GameScene.h"
+#import "JSTileMap.h"
+#import "Player.h"
+
+@interface GameScene()
+@property (nonatomic, strong) JSTileMap *map;
+@property (nonatomic, strong) Player *player;
+@end
 
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+//    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+//    
+//    myLabel.text = @"Hello, World!";
+//    myLabel.fontSize = 65;
+//    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
+//                                   CGRectGetMidY(self.frame));
+//    
+//    [self addChild:myLabel];
+    self.map = [JSTileMap mapNamed:@"test.tmx"];
+    [self addChild:self.map];
     
-    myLabel.text = @"Hello, World!";
-    myLabel.fontSize = 65;
-    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                   CGRectGetMidY(self.frame));
-    
-    [self addChild:myLabel];
+    self.player = [[Player alloc] initWithImageNamed:@"koalio_stand"];
+    self.player.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+    self.player.zPosition = 15;
+    [self.map addChild:self.player];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {

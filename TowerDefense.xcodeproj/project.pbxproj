@@ -16,6 +16,14 @@
 		251FACF11A61DC290049A103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF01A61DC290049A103 /* Images.xcassets */; };
 		251FACF41A61DC290049A103 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF21A61DC290049A103 /* LaunchScreen.xib */; };
 		251FAD001A61DC290049A103 /* TowerDefenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACFF1A61DC290049A103 /* TowerDefenseTests.m */; };
+		2529EF361A64AF85004F5172 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2529EF351A64AF85004F5172 /* Player.m */; };
+		2529EF3B1A64B022004F5172 /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2529EF381A64B022004F5172 /* LFCGzipUtility.m */; };
+		2529EF3C1A64B022004F5172 /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2529EF3A1A64B022004F5172 /* JSTileMap.m */; };
+		2529EF411A64B0A2004F5172 /* tileset_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2529EF3E1A64B0A2004F5172 /* tileset_3.png */; };
+		2529EF421A64B0A2004F5172 /* terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 2529EF3F1A64B0A2004F5172 /* terrain.png */; };
+		2529EF431A64B0A2004F5172 /* test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2529EF401A64B0A2004F5172 /* test.tmx */; };
+		2529EF461A64B102004F5172 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2529EF451A64B102004F5172 /* sprites.atlas */; };
+		2529EF481A64B15A004F5172 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2529EF471A64B15A004F5172 /* libz.dylib */; };
 		254134881A61E0E000B5BE94 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134811A61E0E000B5BE94 /* Vertex.m */; };
 		254134891A61E0E000B5BE94 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134831A61E0E000B5BE94 /* Edge.m */; };
 		2541348A1A61E0E000B5BE94 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134851A61E0E000B5BE94 /* Graph.m */; };
@@ -49,6 +57,17 @@
 		251FACF91A61DC290049A103 /* TowerDefenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerDefenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251FACFE1A61DC290049A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		251FACFF1A61DC290049A103 /* TowerDefenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerDefenseTests.m; sourceTree = "<group>"; };
+		2529EF341A64AF85004F5172 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2529EF351A64AF85004F5172 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2529EF371A64B022004F5172 /* LFCGzipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFCGzipUtility.h; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/LFCGzipUtility.h; sourceTree = "<group>"; };
+		2529EF381A64B022004F5172 /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFCGzipUtility.m; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/LFCGzipUtility.m; sourceTree = "<group>"; };
+		2529EF391A64B022004F5172 /* JSTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSTileMap.h; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/JSTileMap.h; sourceTree = "<group>"; };
+		2529EF3A1A64B022004F5172 /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSTileMap.m; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/JSTileMap.m; sourceTree = "<group>"; };
+		2529EF3E1A64B0A2004F5172 /* tileset_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tileset_3.png; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/tileset_3.png; sourceTree = "<group>"; };
+		2529EF3F1A64B0A2004F5172 /* terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terrain.png; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/terrain.png; sourceTree = "<group>"; };
+		2529EF401A64B0A2004F5172 /* test.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test.tmx; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/test.tmx; sourceTree = "<group>"; };
+		2529EF451A64B102004F5172 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = ../../TestPrograms/SuperKoalioPt1Start/SuperKoalio/sprites.atlas; sourceTree = "<group>"; };
+		2529EF471A64B15A004F5172 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		254134801A61E0E000B5BE94 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		254134811A61E0E000B5BE94 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
 		254134821A61E0E000B5BE94 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
@@ -64,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2529EF481A64B15A004F5172 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,7 @@
 		251FACD21A61DC290049A103 = {
 			isa = PBXGroup;
 			children = (
+				2529EF471A64B15A004F5172 /* libz.dylib */,
 				251FACDD1A61DC290049A103 /* TowerDefense */,
 				251FACFC1A61DC290049A103 /* TowerDefenseTests */,
 				251FACDC1A61DC290049A103 /* Products */,
@@ -98,16 +119,21 @@
 		251FACDD1A61DC290049A103 /* TowerDefense */ = {
 			isa = PBXGroup;
 			children = (
+				2529EF3D1A64B02C004F5172 /* JSTileMap */,
 				254134761A61DF2A00B5BE94 /* Model */,
 				251FACE21A61DC290049A103 /* AppDelegate.h */,
 				251FACE31A61DC290049A103 /* AppDelegate.m */,
 				254134861A61E0E000B5BE94 /* Dijkstra.h */,
 				254134871A61E0E000B5BE94 /* Dijkstra.m */,
+				2529EF341A64AF85004F5172 /* Player.h */,
+				2529EF351A64AF85004F5172 /* Player.m */,
 				251FACE51A61DC290049A103 /* GameScene.h */,
 				251FACE61A61DC290049A103 /* GameScene.m */,
 				251FACE81A61DC290049A103 /* GameScene.sks */,
 				251FACEA1A61DC290049A103 /* GameViewController.h */,
 				251FACEB1A61DC290049A103 /* GameViewController.m */,
+				2529EF451A64B102004F5172 /* sprites.atlas */,
+				2529EF441A64B0A9004F5172 /* TMXFiles */,
 				251FACED1A61DC290049A103 /* Main.storyboard */,
 				251FACF01A61DC290049A103 /* Images.xcassets */,
 				251FACF21A61DC290049A103 /* LaunchScreen.xib */,
@@ -140,6 +166,27 @@
 				251FACFE1A61DC290049A103 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2529EF3D1A64B02C004F5172 /* JSTileMap */ = {
+			isa = PBXGroup;
+			children = (
+				2529EF371A64B022004F5172 /* LFCGzipUtility.h */,
+				2529EF381A64B022004F5172 /* LFCGzipUtility.m */,
+				2529EF391A64B022004F5172 /* JSTileMap.h */,
+				2529EF3A1A64B022004F5172 /* JSTileMap.m */,
+			);
+			name = JSTileMap;
+			sourceTree = "<group>";
+		};
+		2529EF441A64B0A9004F5172 /* TMXFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2529EF3E1A64B0A2004F5172 /* tileset_3.png */,
+				2529EF3F1A64B0A2004F5172 /* terrain.png */,
+				2529EF401A64B0A2004F5172 /* test.tmx */,
+			);
+			name = TMXFiles;
 			sourceTree = "<group>";
 		};
 		254134761A61DF2A00B5BE94 /* Model */ = {
@@ -237,8 +284,12 @@
 			files = (
 				251FACF41A61DC290049A103 /* LaunchScreen.xib in Resources */,
 				251FACF11A61DC290049A103 /* Images.xcassets in Resources */,
+				2529EF461A64B102004F5172 /* sprites.atlas in Resources */,
+				2529EF431A64B0A2004F5172 /* test.tmx in Resources */,
 				251FACE91A61DC290049A103 /* GameScene.sks in Resources */,
 				251FACEF1A61DC290049A103 /* Main.storyboard in Resources */,
+				2529EF411A64B0A2004F5172 /* tileset_3.png in Resources */,
+				2529EF421A64B0A2004F5172 /* terrain.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +313,10 @@
 				254134881A61E0E000B5BE94 /* Vertex.m in Sources */,
 				251FACE71A61DC290049A103 /* GameScene.m in Sources */,
 				254134891A61E0E000B5BE94 /* Edge.m in Sources */,
+				2529EF3B1A64B022004F5172 /* LFCGzipUtility.m in Sources */,
 				2541348A1A61E0E000B5BE94 /* Graph.m in Sources */,
+				2529EF361A64AF85004F5172 /* Player.m in Sources */,
+				2529EF3C1A64B022004F5172 /* JSTileMap.m in Sources */,
 				251FACE11A61DC290049A103 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
