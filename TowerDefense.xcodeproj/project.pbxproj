@@ -16,6 +16,10 @@
 		251FACF11A61DC290049A103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF01A61DC290049A103 /* Images.xcassets */; };
 		251FACF41A61DC290049A103 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251FACF21A61DC290049A103 /* LaunchScreen.xib */; };
 		251FAD001A61DC290049A103 /* TowerDefenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251FACFF1A61DC290049A103 /* TowerDefenseTests.m */; };
+		254134881A61E0E000B5BE94 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134811A61E0E000B5BE94 /* Vertex.m */; };
+		254134891A61E0E000B5BE94 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134831A61E0E000B5BE94 /* Edge.m */; };
+		2541348A1A61E0E000B5BE94 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134851A61E0E000B5BE94 /* Graph.m */; };
+		2541348B1A61E0E000B5BE94 /* Dijkstra.m in Sources */ = {isa = PBXBuildFile; fileRef = 254134871A61E0E000B5BE94 /* Dijkstra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,14 @@
 		251FACF91A61DC290049A103 /* TowerDefenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowerDefenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251FACFE1A61DC290049A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		251FACFF1A61DC290049A103 /* TowerDefenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TowerDefenseTests.m; sourceTree = "<group>"; };
+		254134801A61E0E000B5BE94 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		254134811A61E0E000B5BE94 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		254134821A61E0E000B5BE94 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		254134831A61E0E000B5BE94 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		254134841A61E0E000B5BE94 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		254134851A61E0E000B5BE94 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		254134861A61E0E000B5BE94 /* Dijkstra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dijkstra.h; sourceTree = "<group>"; };
+		254134871A61E0E000B5BE94 /* Dijkstra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dijkstra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +98,11 @@
 		251FACDD1A61DC290049A103 /* TowerDefense */ = {
 			isa = PBXGroup;
 			children = (
+				254134761A61DF2A00B5BE94 /* Model */,
 				251FACE21A61DC290049A103 /* AppDelegate.h */,
 				251FACE31A61DC290049A103 /* AppDelegate.m */,
+				254134861A61E0E000B5BE94 /* Dijkstra.h */,
+				254134871A61E0E000B5BE94 /* Dijkstra.m */,
 				251FACE51A61DC290049A103 /* GameScene.h */,
 				251FACE61A61DC290049A103 /* GameScene.m */,
 				251FACE81A61DC290049A103 /* GameScene.sks */,
@@ -125,6 +140,19 @@
 				251FACFE1A61DC290049A103 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		254134761A61DF2A00B5BE94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				254134801A61E0E000B5BE94 /* Vertex.h */,
+				254134811A61E0E000B5BE94 /* Vertex.m */,
+				254134821A61E0E000B5BE94 /* Edge.h */,
+				254134831A61E0E000B5BE94 /* Edge.m */,
+				254134841A61E0E000B5BE94 /* Graph.h */,
+				254134851A61E0E000B5BE94 /* Graph.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				251FACEC1A61DC290049A103 /* GameViewController.m in Sources */,
+				2541348B1A61E0E000B5BE94 /* Dijkstra.m in Sources */,
 				251FACE41A61DC290049A103 /* AppDelegate.m in Sources */,
+				254134881A61E0E000B5BE94 /* Vertex.m in Sources */,
 				251FACE71A61DC290049A103 /* GameScene.m in Sources */,
+				254134891A61E0E000B5BE94 /* Edge.m in Sources */,
+				2541348A1A61E0E000B5BE94 /* Graph.m in Sources */,
 				251FACE11A61DC290049A103 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +456,7 @@
 				251FAD051A61DC290049A103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		251FAD061A61DC290049A103 /* Build configuration list for PBXNativeTarget "TowerDefenseTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +465,7 @@
 				251FAD081A61DC290049A103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
